@@ -13,7 +13,7 @@ options.add_argument('--no-sandbox')  # Avoid sandboxing to prevent certain secu
 # Initialize the WebDriver with the defined service and options
 driver = webdriver.Chrome(service=service, options=options)
 # Open a specific URL (in this case, a local HTML file) in the WebDriver-controlled browser
-driver.get("https://Munhuu345.github.io/lpu1/")  # Update this with the path to your HTML file
+driver.get("https://uuganbaatardamdin.github.io/webpage/")  # Update this with the path to your HTML file
 
 # Add a delay to ensure that the page fully loads before proceeding (not recommended for production code)
 time.sleep(2)  # Adding a delay to see the result
