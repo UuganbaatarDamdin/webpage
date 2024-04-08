@@ -20,7 +20,7 @@ time.sleep(2)  # Adding a delay to see the result
 
 # Assert some condition to verify the result
 # Check if the title of the webpage contains the expected text "My Awesome Website"
-assert "Lovely Professional University" in driver.title
+assert "CI/CD Tutorial" in driver.title
 
 # Take a screenshot of the current state of the browser window
 # Generate a timestamp for the screenshot file name to ensure uniqueness
